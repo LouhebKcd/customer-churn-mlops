@@ -58,9 +58,6 @@ customer-churn-mlops/
 
 git clone https://github.com/
 
-<ton-user>/customer-churn-mlops.git
-cd customer-churn-mlops
-
 
 ## 🐍 Créer un environnement Python
 
@@ -126,10 +123,10 @@ python src/models/train_model_rf.py
 python src/models/evaluate_thresholds.py
 
 
-| Threshold | Precision | Recall | F1 |
-|----------|-----------|--------|----|
-| 0.50 | 0.657 | 0.559 | 0.604 |
-| 0.35 | 0.546 | 0.711 | **0.618** |
+| Threshold | Precision | Recall |   F1  |
+|-----------|-----------|--------|-------|
+| 0.50      |   0.657   |  0.559 | 0.604 |
+| 0.35      |   0.546   | 0.711 | **0.618** |
 | 0.25 | 0.498 | **0.813** | 0.618 |
 
 ➡️ Le seuil **0.35** maximise la détection de churners (objectif business).  
@@ -233,3 +230,4 @@ GitHub : https://github.com/LouhebKcd
 ---
 
 END README
+
