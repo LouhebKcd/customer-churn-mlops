@@ -1,4 +1,3 @@
-BEGIN README
 
 # 📊 Churn Prediction – End-to-End MLOps Project  
 ### 🔥 Machine Learning • FastAPI • Docker • Frontend • End-to-End Deployment
@@ -170,11 +169,6 @@ L’interface web permet de :
 - visualiser la probabilité + un badge (risque élevé / faible)
 - consommer directement l’API
 
-Accessible via :
-
-http://127.0.0.1:8000/frontend
-
-
 ---
 
 # 🐳 7. Dockerisation
@@ -224,11 +218,9 @@ Ensuite :
 
 # 👨‍💻 Auteur
 KACED Louheb
-Master2 Data Science / Machine Learning  
 GitHub : https://github.com/LouhebKcd  
 
 ---
 
-END README
 
 
